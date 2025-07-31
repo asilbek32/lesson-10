@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+  <div class="container max-w-[1440px] mx-auto">
+    <header
+      class="flex justify-between items-center bg-[#F5F5F5] h-[50px] px-[10px] md:px-[20px] xl:px-[30px] mb-[13px] ">
+      <div class="flex items-center gap-x-[5px]">
+        <p>Ваш город:</p>
+        <div class="flex items-center gap-x-[5px]">
+          <p class="underline">Москва</p>
+          <img src="./icons/mate.svg" alt="">
+        </div>
+      </div>
+      <div class="sm:flex flex-col items-center hidden">
+        <p class="text-sm font-normal text-[#222222]">Москва, г. Химки, ул. Рабочая, дом 2</p>
+        <p class="text-xs font-normal text-[#777777]">с 09:00 до 20:00 без выходных</p>
+      </div>
+      <div class="lg:flex flex-col items-center hidden">
+        <p class="text-sm font-medium text-[#222222]">+7 (495) 970-45-62 / +7 (915) 202-72-57</p>
+        <p class="text-xs font-medium text-[#222222] border-b-1">Перезвонить?</p>
+      </div>
+      <div class="flex gap-x-[10px] items-center ">
+        <p class="text-sm font-normal text-[#222222] hidden sm:block">Связаться:</p>
+        <div
+          class="flex w-[36px] h-[36px] justify-center items-center border-1 border-solid border-[#222222] rounded-[50%]">
+          <img src="./img/la_telegram-plane.png" alt="">
+        </div>
+        <div
+          class="flex w-[36px] h-[36px] justify-center items-center border-1 border-solid border-[#222222] rounded-[50%]">
+          <img src="./img/ic_round-whatsapp.png" alt="">
+        </div>
+        <div
+          class="flex w-[36px] h-[36px] justify-center items-center border-1 border-solid border-[#222222] rounded-[50%]">
+          <img src="./img/cib_viber.png" alt="">
+        </div>
+      </div>
+    </header>
+    <div class="px-[10px] lg:hidden px-[10px] mb-[25px]">
+      <div class="flex justify-between items-center  mb-[20px]">
+        <img src="./images/ph_calculator-light.png" alt="">
+        <img src="./icons/Слой.svg" alt="">
+        <img src="./icons/001-shopping.svg" alt="">
+      </div>
+      <div class=" flex flex-col items-center mb-[25px]">
+        <p class="text-sm font-medium text-[#222222]">+7 (495) 970-45-62 / +7 (915) 202-72-57</p>
+        <p class="text-xs font-medium text-[#222222]">Перезвонить?</p>
+      </div>
+      <div class="flex justify-between gap-x-[20px]">
+        <img src="./icons/icon_burger.svg" alt="">
+        <div class="flex items-center bg-[#F5F5F5] rounded-[10px] px-4 py-4 w-full max-w-md">
+          <input type="text" placeholder="Введите фразу или слово"
+            class="bg-transparent outline-none flex-grow text-gray-600 placeholder-gray-500">
+          <img src="./icons/icon_search.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <nav
+      class="lg:flex justify-between items-center px-[30px] hidden mb-[20px] [box-shadow:0px_4px_10px_0px_#0000000D]">
+      <p class="text-sm text-[#222222] font-medium">grandlesmarket@mail.ru</p>
+      <div class="flex items-center gap-x-[5px]">
+        <p class="text-[13px] text-[#222222] font-semibold uppercase">Каталог</p>
+        <img src="./icons/mate.svg" alt="">
+      </div>
+      <div class="flex items-center gap-x-[5px]">
+        <p class="text-[13px] text-[#222222] font-semibold uppercase">Покупателю</p>
+        <img src="./icons/mate.svg" alt="">
+      </div>
+      <img src="./icons/Слой2.svg" alt="">
+      <div class="flex items-center gap-x-[5px]">
+        <p class="text-[13px] text-[#222222] font-semibold uppercase">О компании</p>
+        <img src="./icons/mate.svg" alt="">
+      </div>
+      <div class="flex items-center gap-x-[5px]">
+        <p class="text-[13px] text-[#222222] font-semibold uppercase">Контакты</p>
+        <img src="./icons/mate.svg" alt="">
+      </div>
+      <div class="flex gap-x-[30px]">
+        <img src="./img/ph_calculator-light.png" alt="">
+        <img src="./icons/icon_search.svg" alt="">
+        <img src="./icons/001-shopping.svg" alt="">
+      </div>
+    </nav>
+
+    <main class="px-[10px] mb-[70px] xl:px-[30px]">
+      <div
+        class="bg-[#F5F5F5] flex flex-col sm:flex-row justify-between py-[60px] lg:py-[37px] xl:items-center  rounded-[10px] px-[20px]  xl:px-0">
+        <div class="xl:px-[100px]">
+          <h1
+            class="text-[#2A1A01] text-[34px] lg:text-[46px] xl:text-[60px] font-bold mb-[6px] xl:mb-[20px] xl:w-539px">
+            Интернет-магазин пиломатериалов</h1>
+          <p
+            class="text-[#2A1A01] text-[17px] lg:text-[20px] font-semibold mb-[24px] lg:mb-[60px] xl:mb-[80px] xl:w-[354px]">
+            С оперативной доставкой по Москве и
+            Московской области</p>
+          <button class="w-[240px] h-[60px] bg-[#FF9B04] text-[#FFFFFF] rounded-[8px]">Перейти в
+            каталог</button>
+        </div>
+        <div class="flex justify-end">
+          <img src="./img/pngwing1.png" alt="" class="lg:hidden">
+        <img src="./img/pngwing2.png" alt="" class="hidden lg:inline">
+        </div>
+
+      </div>
+    </main>
+    <section class="px-[10px] xl:px-[30px] mb-[70px]">
+      <div class="mb-[30px] flex justify-between items-center">
+        <div>
+          <h2 class="text-[28px] xl:text-[34px] font-bold text-[#2A1A01] bm-[10px] xl:mb-[20px]">Каталог
+            продукции</h2>
+          <p class="text-sm xl:text-base  font-medium text-[#777777]">Представлен качественными
+            пиломатериалами для различных
+            нужд строительства</p>
+        </div>
+        <div>
+          <button
+            class="w-[240px] h-[50px] rounded-[8px] border-1 border-solid border-[#222222] text-[#222222] hidden lg:block">
+            Перейти в каталог</button>
+        </div>
+
+      </div>
+      <div class="flex flex-wrap gap-[20px] justify-center mb-[20px] md:mb-0 xl:grid grid-cols-4">
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+        <div class="w-[340px] h-[210px] rounded-[10px]  overflow-hidden  relative">
+          <img src="./img/image2.png" alt="" class="w-full object-cover h-48">
+          <div class="absolute bottom-[9px] w-full text-white p-4 backdrop-blur-[8px] bg-[#2B1A0126]">
+            <h2 class="text-xl font-semibold">Доска</h2>
+            <p class="text-sm">от 13 500 ₽</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button
+          class="w-[340px] h-[50px] rounded-[8px] border-1 border-solid border-[#222222] text-[#222222] md:hidden">
+          Перейти в каталог</button>
+      </div>
+    </section>
+    <section class="px-[10px]">
+      <div class="bg-[#F5F5F5] rounded-[10px] px-[20px] lg:px-[50px] xl:px-[70px] py-[70px]">
+        <h2 class="text-[33px] lg:text-[60px] xl:text-[100px] font-[1000] uppercase text-[#FF9B04] text-center lg:text-left">GrandLesMarket</h2>
+        <p class="text-[20px]  lg:text-[35px] xl:text-[50px] [#2A1A01] font-semibold my-[20px] uppercase text-center lg:text-left">магазин пиломатериалов</p>
+        <p class="text-base font-normal text-[#222222] "> Мы стремимся обеспечивать потребности самых разных заказчиков
+          в качественной древесине для разных
+          нужд
+          строительства. Мы постоянно расширяем линейку пиломатериалов для продажи, в нашем каталоге
+          представлены
+          изделия с разными характеристиками и уровня качества, чтобы удовлетворить любые запросы. Ведь
+          древесина
+          может быть очень разной и использоваться по-разному.</p>
+      </div>
+    </section>
+
+    <section class="p-4 md:p-10">
+      <h2 class="text-[#2A1A01] text-2xl md:text-[34px] pb-4 md:pb-[20px] px-2 md:p-10">Популярные товары</h2>
+      <div class="flex flex-col md:flex-row place-content-between gap-4 md:gap-0 px-2 md:p-10">
+        <p class="text-[#777777] flex items-center text-base md:text-[16px] max-w-full md:max-w-[375px]">Выбирайте
+          пиломатериалы, которые пользуются наибольшим спросом у наших клиентов</p>
+        <button class="w-full md:w-[240px] h-[50px] text-[#222222] border px-[37px] py-[10px] rounded-[8px]">Перейти в
+          каталог</button>
+      </div>
+    </section>
+
+    <section class="flex flex-col md:flex-row p-4 md:p-10 gap-4 md:gap-[20px]">
+      <div class="flex flex-col sm:flex-row gap-4 md:gap-[20px] border w-full md:w-auto rounded-[10px]">
+        <div class="flex items-center bg-[#F5F5F5] px-4 py-6 md:px-[33px] md:py-[50px] rounded-[10px]"><img src="./img/4.png" alt=""
+            class="w-full h-auto max-w-[120px] md:max-w-none" /></div>
+        <div class="px-4 py-6 md:px-[20px] md:py-[30px]">
+          <div class="flex gap-[10px] pb-[20px]">
+            <button
+              class="w-[56px] h-[24px] text-[#222222] border px-[7px] py-[3px] rounded-[3px] text-[11px]">Новинка</button>
+            <button
+              class="w-[47px] h-[24px] text-[#222222] border px-[7px] py-[3px] rounded-[3px] text-[11px]">Хит</button>
+          </div>
+          <h3 class="text-[#222222] text-[20px] pb-[3px]">Брусок строганый</h3>
+          <p class="text-[#777777] flex items-center text-[16px]">50х50х3000</p>
+          <div class="flex gap-[5px]">
+            <p class="text-[#222222] flex items-center text-[16px]">Количество:</p>
+            <button
+              class="w-[30px] h-[30px] text-[#222222] border px-[1px] py-[1px] rounded-[3px] text-[11px]">-</button>
+            <h4>1</h4>
+            <button
+              class="w-[30px] h-[30px] text-[#222222] border px-[1px] py-[1px] rounded-[3px] text-[11px]">+</button>
+          </div>
+          <div class="flex gap-[10px] pt-[20px] pb-[30px]">
+            <p>Цена за:</p>
+            <button
+              class="w-[30px] h-[30px] text-[#222222] border px-[3px] py-[3px] rounded-[3px] text-[11px]">м3</button>
+            <button
+              class="w-[30px] h-[30px] text-[#222222] border px-[3px] py-[3px] rounded-[3px] text-[11px]">шт</button>
+            <h3 class="text-[#222222] text-[16px] flex aligin-center">17 500 ₽</h3>
+          </div>
+          <div class="flex gap-[30px]">
+            <button
+              class="w-[155px] h-[50px] text-[#222222] bg-[#FF9B04] px-[43px] py-[13px] rounded-[8px] text-[13px]">В
+              корзину</button>
+            <button class="w-[123px] h-[13px] text-[#2A1A01] text-[13px] pt-[15px]">Купить в 1 клик</button>
+          </div>
+        </div>
+      </div>
+      <div class="lg:flex flex-col sm:flex-row gap-4 md:gap-[20px] border w-full md:w-auto hidden rounded-[10px]">
+        <div class="bg-[#F5F5F5] px-4 py-6 md:px-[33px] md:py-[50px] rounded-[10px]"><img src="./img/besh.png" alt=""
+            class="w-full h-auto max-w-[120px] md:max-w-none" /></div>
+        <div class="px-4 py-6 md:px-[20px] md:py-[30px]">
+          <div class="flex gap-[10px] pb-[20px]">
+            <button
+              class="w-[56px] h-[24px] text-[#222222] border px-[7px] py-[3px] rounded-[3px] text-[11px]">Новинка</button>
+            <button
+              class="w-[47px] h-[24px] text-[#222222] border px-[7px] py-[3px] rounded-[3px] text-[11px]">Хит</button>
+          </div>
+          <h3 class="text-[#222222] text-[20px] pb-[3px]">Брусок строганый</h3>
+          <p class="text-[#777777] flex items-center text-[16px]">50х50х3000</p>
+          <div class="flex gap-[5px]">
+            <p class="text-[#222222] flex items-center text-[16px]">Количество:</p>
+            <button
+              class="w-[30px] h-[30px] text-[#222222] border px-[1px] py-[1px] rounded-[3px] text-[11px]">-</button>
+            <h4>1</h4>
+            <button
+              class="w-[30px] h-[30px] text-[#222222] border px-[1px] py-[1px] rounded-[3px] text-[11px]">+</button>
+          </div>
+          <div class="flex gap-[10px] pt-[20px] pb-[30px]">
+            <p>Цена за:</p>
+            <button
+              class="w-[30px] h-[30px] text-[#222222] border px-[3px] py-[3px] rounded-[3px] text-[11px]">м3</button>
+            <button
+              class="w-[30px] h-[30px] text-[#222222] border px-[3px] py-[3px] rounded-[3px] text-[11px]">шт</button>
+            <h3 class="text-[#222222] text-[16px] flex aligin-center">17 500 ₽</h3>
+          </div>
+          <div class="flex gap-[30px]">
+            <button
+              class="w-[155px] h-[50px] text-[#222222] bg-[#FF9B04] px-[43px] py-[13px] rounded-[8px] text-[13px]">В
+              корзину</button>
+            <button class="w-[123px] h-[13px] text-[#2A1A01] text-[13px] pt-[15px]">Купить в 1 клик</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="grid grid-cols-1 md:grid-cols-2 p-4 md:p-10 gap-6">
+      <div>
+        <h3 class="text-[#2A1A01] text-[34px] flex aligin-center justify-center pb-[30px]">О компании</h3>
+        <h4 class="text-[#222222] text-[20px] flex aligin-center max-w-[670px]">Компания «ГрандЛесМаркет»
+          специализируется на продажах высококачественных пиломатериалов.</h4>
+        <p class="text-[#222222] flex items-center text-[16px] pb-[20px] max-w-[646px]">Реализация осуществляется любым
+          удобным способом: в розницу или оптовыми поставками. Деятельность компании ориентирована на широкий круг
+          потребителей: крупные и небольшие строительные организации, развитые торговые сети, единичные магазины
+          индивидуальных предпринимателей, а также на частных лиц.</p>
+        <p class="text-[#222222] flex items-center text-[16px] max-w-[646px]">Мы позиционируем себя как надежного
+          поставщика широкого спектра товаров. Представленный ассортимент соответствует действующим стандартам,
+          обеспечен технологически правильными условиями хранения и транспортирования. Именно поэтому весь пиломатериал
+          имеет отличный товарный вид, сохраняет изначальные характеристики и обладает стопроцентной эксплуатационной
+          пригодностью.</p>
+        <button
+          class="w-[240px] h-[60px] text-[#FFFFFF] bg-[#FF9B04] px-[41px] py-[15px] rounded-[8px] text-[13px] mt-[75px]">Подробнее
+          о нас</button>
+      </div>
+      <div class="flex justify-center items-center"><img src="./img/tup.png" alt=""
+          class="w-full h-auto max-w-xs md:max-w-none" /></div>
+    </section>
+
+    <section class="p-4 md:p-10">
+      <h2 class="text-[#222222] text-xl md:text-[30px] flex flex-col text-center justify-center px-2 md:px-[210px]">
+        Значимое преимущество компании – выгодное сочетание безупречного качества реализуемого продукта и его
+        удивительно низкой цены.</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 grid-rows-3 gap-4 md:gap-[20px] pt-8 md:pt-[60px] ">
+        <div class="flex px-[20px] py-[20px] bg-[#F5F5F5] gap-[20px] rounded-[10px]">
+          <div><img src="./img/noun.png" alt=""></div>
+          <div class="flex flex-col">
+            <h3 class="text-[#222222] text-[20px] pb-[10px]">На рынке с 2010 года</h3>
+            <p class="text-[#777777] text-[16px]">Более 13 лет успешной работы и сотни довольных заказчиков</p>
+          </div>
+        </div>
+
+        <div class="flex px-[20px] py-[20px] bg-[#F5F5F5] gap-[20px] rounded-[10px]">
+          <div><img src="./img/noun1.png" alt=""></div>
+          <div class="flex flex-col">
+            <h3 class="text-[#222222] text-[20px] pb-[10px]">Удобные способы оплаты</h3>
+            <p class="text-[#777777] text-[16px]">Возможность оплаты товара наличным и по безналичному расчету</p>
+          </div>
+        </div>
+        <div class="flex px-[20px] py-[20px] bg-[#F5F5F5] gap-[20px] rounded-[10px]">
+          <div><img src="./img/noun3.png" alt=""></div>
+          <div class="flex flex-col">
+            <h3 class="text-[#222222] text-[20px] pb-[10px]">Широкий ассортимент</h3>
+            <p class="text-[#777777] text-[16px]">Полный набором всех возможных изделий из натурального дерева</p>
+          </div>
+        </div>
+
+        <div class="flex px-[20px] py-[20px] bg-[#F5F5F5] gap-[20px] rounded-[10px]">
+          <div><img src="./img/noun.png" alt=""></div>
+          <div class="flex flex-col">
+            <h3 class="text-[#222222] text-[20px] pb-[10px]">Свой автопарк</h3>
+            <p class="text-[#777777] text-[16px]">Приобретая пиломатериал у нас, не стоит волноваться о его перевозке
+            </p>
+          </div>
+        </div>
+        <div class="flex px-[20px] py-[20px] bg-[#F5F5F5] gap-[20px] rounded-[10px]">
+          <div><img src="./img/noun1.png" alt=""></div>
+          <div class="flex flex-col">
+            <h3 class="text-[#222222] text-[20px] pb-[10px]">Гибкая система скидок</h3>
+            <p class="text-[#777777] text-[16px]">Позволяет нашим клиентам экономить значительные суммы</p>
+          </div>
+        </div>
+
+        <div class="flex px-[20px] py-[20px] bg-[#F5F5F5] gap-[20px] rounded-[10px]">
+          <div><img src="./img/noun3.png" alt=""></div>
+          <div class="flex flex-col">
+            <h3 class="text-[#222222] text-[20px] pb-[10px]">Собственный склад</h3>
+            <p class="text-[#777777] text-[16px]">Площадь 3000 м2 позволяет держать в наличии огромный ассортимент</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-2 m-4 md:m-10 bg-[#E0E0E0] gap-4">
+      <div class="flex justify-center items-center"><img src="./img/qizcha.png" alt=""
+          class="w-full h-auto max-w-xs md:max-w-none" /></div>
+      <div class="bg-[#FFFFFF] pt-8 md:pt-[50px] mx-2 md:mx-[20px] my-2 md:my-[20px] rounded-[10px]">
+        <h3 class=" pl-[40px] text-[#2A1A01] text-[34px] pb-[30px]">Калькулятор пиломатериалов</h3>
+        <div class="pl-4 md:pl-[40px] flex flex-col sm:flex-row gap-4 md:gap-[20px]">
+          <div>
+            <form class="text-[#777777] text-[14px] pb-[5px]" action="text">Категория</form>
+            <input class="border px-[20px] py-[13px] rounded-[10px]" type="text" placeholder="Доска">
+          </div>
+
+          <div>
+            <form class="text-[#777777] text-[14px] pb-[5px]" action="text">Древесина</form>
+            <input class="border px-[20px] py-[13px] rounded-[10px]" type="text" placeholder="Выберите материал">
+          </div>
+        </div>
+
+        <div class="pl-4 md:pl-[40px] flex flex-col sm:flex-row gap-4 md:gap-[20px] pt-4 md:pt-[20px]">
+          <div>
+            <form class="text-[#777777] text-[14px] pb-[5px]" action="text">Размер</form>
+            <input class="border px-[20px] py-[13px] rounded-[10px]" type="text" placeholder="50х150х6000">
+          </div>
+
+          <div>
+            <form class="text-[#777777] text-[14px] pb-[5px]" action="text">Количество</form>
+            <div class="border flex items-center px-[20px] py-[13px] rounded-[10px] bg-[#E0E0E0] gap-[10px]">
+              <button class="w-[20px] h-[20px] rounded-[2px] bg-[#FFFFFF]"></button>
+              <h6 class="text-[#222222] text-[16px]">м3</h6>
+              <button class="w-[20px] h-[20px] bg-[#FFFFFF]">✅</button>
+              <h6 class="text-[#222222] text-[16px]">шт</h6>
+              <button class="w-[30px] h-[30px] text-[#222222] px-[2px] py-[2px] rounded-[8px] bg-[#FFFFFF]">-</button>
+              <h6 class="text-[#222222] text-[16px]">1 000</h6>
+              <button class="w-[30px] h-[30px] text-[#222222] px-[2px] py-[2px] rounded-[8px] bg-[#FFFFFF]">+</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pl-4 md:pl-[40px] flex flex-col sm:flex-row items-center justify-between h-auto sm:h-[100px] bg-[#FF9B04] mt-4 md:mt-[20px] gap-4">
+          <p class="text-[#FFFFFF] text-[16px] pr-[4px]">Стоимость: <span class="text-[#FFFFFF] text-[24px]">75 000
+              ₽</span></p>
+          <button
+            class="w-[295px] h-[60px] text-[#222222] bg-[#FFFFFF] px-[89px] py-[15px] rounded-[8px] text-[13px] mr-[40px]">Оформить
+            заказ</button>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="p-4">
+      <div class="mb-8 md:mb-[120px] bg-white">
+        <h2 class="text-center text-[#2A1A01] font-bold text-2xl md:text-3xl mb-8 md:mb-14">
+          Как мы работаем
+        </h2>
+        <div class="flex flex-wrap justify-center gap-6 md:gap-12">
+          <div class="flex flex-col items-center text-center w-40 md:w-56">
+            <div class="relative mb-4">
+              <div class="bg-[#F5F5F5] rounded-full w-24 h-24 flex items-center justify-center">
+                <img src="./img/uch.png" alt="step 1" class="w-14 h-14" />
+              </div>
+              <span
+                class="absolute -top-2 -right-2 bg-[#FFFFFF] text-[#222222] text-sm rounded-full w-7 h-7 flex items-center justify-center font-bold">01</span>
+            </div>
+            <p class="text-[#777] text-base">
+              Оставляете заявку на сайте или по телефону
+            </p>
+          </div>
+          <div class="flex flex-col items-center text-center w-56">
+            <div class="relative mb-4">
+              <div class="bg-[#F5F5F5] rounded-full w-24 h-24 flex items-center justify-center">
+                <img src="./img/uch.png" alt="step 2" class="w-14 h-14" />
+              </div>
+              <span
+                class="absolute -top-2 -right-2 bg-[#FFFFFF] text-[#222222] text-sm rounded-full w-7 h-7 flex items-center justify-center font-bold">02</span>
+            </div>
+            <p class="text-[#777] text-base">
+              Согласовываем Ваш заказ и уточняем детали
+            </p>
+          </div>
+          <div class="flex flex-col items-center text-center w-56">
+            <div class="relative mb-4">
+              <div class="bg-[#F5F5F5] rounded-full w-24 h-24 flex items-center justify-center">
+                <img src="./img/uch.png" alt="step 3" class="w-14 h-14" />
+              </div>
+              <span
+                class="absolute -top-2 -right-2 bg-[#FFFFFF] text-[#222222] text-sm rounded-full w-7 h-7 flex items-center justify-center font-bold">03</span>
+            </div>
+            <p class="text-[#777] text-base">
+              Оплачиваете заказ любым удобным способом
+            </p>
+          </div>
+          <div class="flex flex-col items-center text-center w-56">
+            <div class="relative mb-4">
+              <div class="bg-[#F5F5F5] rounded-full w-24 h-24 flex items-center justify-center">
+                <img src="./img/uch.png" alt="step 4" class="w-14 h-14" />
+              </div>
+              <span
+                class="absolute -top-2 -right-2 bg-[#FFFFFF] text-[#222222] text-sm rounded-full w-7 h-7 flex items-center justify-center font-bold">04</span>
+            </div>
+            <p class="text-[#777] text-base">
+              Мы формируем Ваш заказ на складе
+            </p>
+          </div>
+          <div class="flex flex-col items-center text-center w-56">
+            <div class="relative mb-4">
+              <div class="bg-[#F5F5F5] rounded-full w-24 h-24 flex items-center justify-center">
+                <img src="./img/uch.png" alt="step 5" class="w-14 h-14" />
+              </div>
+              <span
+                class="absolute -top-2 -right-2 bg-[#FFFFFF] text-[#222222] text-sm rounded-full w-7 h-7 flex items-center justify-center font-bold">05</span>
+            </div>
+            <p class="text-[#777] text-base">
+              Оперативно доставляем Ваш заказ
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-4 md:p-12 bg-white rounded-xl mb-8 md:mb-16">
+      <div class="flex flex-col md:flex-row justify-between items-start mb-6 md:mb-10 gap-4 md:gap-0">
+        <div>
+          <h2 class="text-[#222] font-bold text-4xl mb-4">
+            Отзывы наших клиентов
+          </h2>
+          <p class="text-[#888] text-base">
+            Ознакомьтесь с отзывами клиентов, которые уже воспользовались
+            услугами нашей компании
+          </p>
+        </div>
+        <button
+          class="border border-[#222] rounded-[8px] px-8 py-3 text-base font-semibold hover:bg-[#f5f5f5] transition">
+          Смотреть все отзывы
+        </button>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+        <div class="border border-[#E0E0E0] rounded-xl p-10 bg-[#FCFCFC]">
+          <div class="flex items-center gap-4 mb-4">
+            <img src="./img/avatarq.png" class="w-14 h-14 rounded-full object-cover" />
+            <div>
+              <div class="font-semibold text-[#222] text-lg">
+                Мария Петрова
+              </div>
+              <div class="text-sm text-[#888]">06 марта 2024</div>
+            </div>
+            <span class="ml-auto text-sm text-[#888]">Отзыв полезен?</span>
+          </div>
+          <p class="text-[#222] text-base mb-3">
+            Недавно в нашем производстве потребовались пиломатериалы для
+            обустройства дачи. Долго искали подходящие сайты и наткнулись на
+            компанию «ГрандЛесМаркет». Заказали материалы и были приятно
+            удивлены качеством, теперь только уличные сделанные ремонты у нас
+            делаем с их поставками.
+          </p>
+          <a href="#" class="text-[#FF9B04] text-base font-semibold hover:underline">Читать полностью</a>
+        </div>
+        <div class="border border-[#E0E0E0] rounded-xl p-10 bg-[#FCFCFC]">
+          <div class="flex items-center gap-4 mb-4">
+            <img src="./img/avataru.png" class="w-14 h-14 rounded-full object-cover" />
+            <div>
+              <div class="font-semibold text-[#222] text-lg">
+                Дмитрий Иванов
+              </div>
+              <div class="text-sm text-[#888]">15 марта 2023</div>
+            </div>
+            <span class="ml-auto text-sm text-[#888]">Отзыв полезен?</span>
+          </div>
+          <p class="text-[#222] text-base mb-3">
+            Брал брусок для отделки дома, всё был очень хороший сервис. Теперь
+            знаю, где брать строймат, цены не кусаются, и качество отличное.
+            Спасибо, что делаете так удобно. Материалы качественные, хорошие
+            продавцы, всё ясно и по полкам.
+          </p>
+          <a href="#" class="text-[#FF9B04] text-base font-semibold hover:underline">Читать полностью</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-[#F5F5F5] rounded-xl p-4 md:p-8 mb-8 md:mb-16">
+      <h2 class="font-bold text-2xl mb-6">
+        Оставьте заявку прямо сейчас и
+        <span class="text-[#FF9B04]">получите скидку 20%</span>
+        на доставку!
+      </h2>
+      <form class="flex flex-col md:flex-row gap-4 mb-2">
+        <input type="text" placeholder="Как к Вам обращаться?"
+          class="flex-1 rounded-lg border border-[#E0E0E0] px-4 py-3 text-base outline-none" />
+        <input type="tel" placeholder="+7 (___) ___-__-__"
+          class="flex-1 rounded-lg border border-[#E0E0E0] px-4 py-3 text-base outline-none" />
+        <button type="submit"
+          class="bg-[#FF9B04] text-white font-semibold rounded-lg px-8 py-3 text-base hover:bg-[#ffa733] transition">
+          ОТПРАВИТЬ ЗАЯВКУ
+        </button>
+      </form>
+      <p class="text-xs text-[#888] mt-2">
+        Нажимая кнопку "Отправить заявку", Вы соглашаетесь с правилами
+        обработки персональных данных
+      </p>
+    </section>
+
+    <section class="bg-white py-6 md:py-12 px-4 md:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-6xl mx-auto">
+        <div>
+          <h4 class="font-semibold mb-3 text-lg">Каталог</h4>
+          <div class="grid grid-cols-2 gap-x-8 text-[#222] text-sm">
+            <ul class="space-y-1">
+              <li>Доска</li>
+              <li>Брус</li>
+              <li>Брусок</li>
+              <li>Блокхаус</li>
+              <li>Вагонка</li>
+              <li>Имитация бруса</li>
+            </ul>
+            <ul class="space-y-1">
+              <li>Половая доска</li>
+              <li>Клееный пиломатериал</li>
+              <li>Фанера</li>
+              <li>Погонаж</li>
+              <li>Лиственница</li>
+              <li>Стройматериалы</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3 text-lg">Покупателям</h4>
+          <ul class="space-y-1 text-[#222] text-sm">
+            <li>Доставка</li>
+            <li>Оплата</li>
+            <li>Гарантии качества</li>
+            <li>Прайс-лист</li>
+            <li>Акции</li>
+            <li>Калькулятор</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3 text-lg">О компании</h4>
+          <ul class="space-y-1 text-[#222] text-sm">
+            <li>О компании</li>
+            <li>Производство</li>
+            <li>Новости</li>
+            <li>Статьи</li>
+            <li>Отзывы</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3 text-lg">Контакты</h4>
+          <div class="text-[#222] text-sm space-y-3">
+            <div>
+              <span class="text-[#888] text-xs block mb-1">Главный офис</span>
+              Москва, Будайский проезд, дом 3, этаж 1
+            </div>
+            <div>
+              <span class="text-[#888] text-xs block mb-1">Отдел продаж и склад</span>
+              Химки, ул. Рабочая, дом 2
+            </div>
+            <div>
+              <span class="text-[#888] text-xs block mb-1">Телефоны</span>
+              8 (495) 970-45-62 / +7 (915) 202-72-57
+            </div>
+            <div>
+              <span class="text-[#888] text-xs block mb-1">Электронная почта</span>
+              grandlesmarket@mail.ru
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="border-t border-[#E0E0E0] mt-8">
+      <div
+        class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between py-4 md:py-6 px-2 md:px-5 text-[#888] text-sm gap-4 md:gap-0 flex-wrap">
+        <div class="text-center md:text-left">© 2005–2023 ГрандЛесМаркет. Все права защищены.</div>
+        <a href="#" class="underline hover:text-[#222] text-center md:text-left">
+          Политика обработки персональных данных
+        </a>
+        <div class="flex items-center gap-2 md:gap-3 justify-center md:justify-end w-full md:w-auto">
+          <span class="mr-2">Связаться в мессенджерах:</span>
+          <a href="#"><img src="./img/telegra.png" alt="telegram"
+              class="w-8 h-8 border border-[#BDBDBD] rounded-full p-1" /></a>
+          <a href="#"><img src="./img/telegra.png" alt="whatsapp"
+              class="w-8 h-8 border border-[#BDBDBD] rounded-full p-1" /></a>
+          <a href="#"><img src="./img/telegra.png" alt="viber"
+              class="w-8 h-8 border border-[#BDBDBD] rounded-full p-1" /></a>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+  </div>
+
+
+</body>
+
+</html>
